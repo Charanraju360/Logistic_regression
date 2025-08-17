@@ -24,16 +24,14 @@ The goal is to classify the flowers into three species:
 ## ⚙️ Steps Performed
 1. **Data Loading & Exploration**
    - Loaded the Iris dataset from CSV.
-   - Checked shape, head, and summary statistics.
+   - Checked Null values either present or not.
 
 2. **Data Visualization (Matplotlib)**
    - Scatter plots (Petal length vs Petal width, Sepal length vs Sepal width).
-   - Histograms for feature distributions.
-   - Boxplots for comparing features across species.
 
 3. **Preprocessing**
    - Split dataset into training and testing sets.
-   - Encoded target labels.
+   - verified the sizes of the train and test split.
 
 4. **Model Training**
    - Applied **Logistic Regression** from `sklearn`.
@@ -41,8 +39,6 @@ The goal is to classify the flowers into three species:
 
 5. **Evaluation**
    - Calculated accuracy score on test data.
-   - Plotted decision boundaries (optional).
-   - Generated confusion matrix.
 
 ---
 
@@ -56,7 +52,7 @@ The goal is to classify the flowers into three species:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/iris-logistic-regression.git
-````
+   ````
 
 2. Navigate into the project folder:
 
@@ -89,5 +85,3 @@ Install them with:
 ```bash
 pip install pandas matplotlib scikit-learn jupyter
 ```
-
----
