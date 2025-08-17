@@ -51,7 +51,7 @@ The goal is to classify the flowers into three species:
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/iris-logistic-regression.git
+   git clone https://github.com/Charanraju360/Logistic_regression.git
    ````
 
 2. Navigate into the project folder:
@@ -85,3 +85,4 @@ Install them with:
 ```bash
 pip install pandas matplotlib scikit-learn jupyter
 ```
+
